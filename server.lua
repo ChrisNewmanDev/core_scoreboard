@@ -2,8 +2,8 @@ local QBCore = exports['qb-core']:GetCoreObject()
 local heistStates = {}
 
 local CURRENT_VERSION = "1.0.0"
-local RESOURCE_NAME = "Core_Scoreboard"
-local VERSION_CHECK_URL = "https://raw.githubusercontent.com/ChrisNewmanDev/Core_Scoreboard/main/version.json"
+local RESOURCE_NAME = "core_scoreboard"
+local VERSION_CHECK_URL = "https://raw.githubusercontent.com/ChrisNewmanDev/core_scoreboard/main/version.json"
 
 local function ParseVersion(version)
     local major, minor, patch = version:match('(%d+)%.(%d+)%.(%d+)')
@@ -89,7 +89,7 @@ local function CheckVersion()
                 end
             end
             
-            print('^2Download: ^7https://github.com/ChrisNewmanDev/Core_Scoreboard/releases/latest')
+            print('^2Download: ^7https://github.com/ChrisNewmanDev/core_scoreboard/releases/latest')
         end
         
         print('^3========================================^7')

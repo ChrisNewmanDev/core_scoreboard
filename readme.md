@@ -43,7 +43,10 @@ exports['core-scoreboard']:SetHeistInProgress('pacific', false)
   - Make sure the filename and path match exactly (`server-logo.png` in the `img` folder).
   - The logo will automatically appear above the scoreboard when the UI is opened.
 
----
+## Credits
+
+- **Framework**: QB-Core
+- **Developer**: ChrisNewmanDev
 
 ## Changelog
 

@@ -4,7 +4,7 @@ game 'gta5'
 lua54 'yes'
 
 description 'Core Scoreboard'
-author 'Core Scripts'
+author 'ChrisNewmanDev'
 version '1.0.0'
 
 shared_script 'config.lua'
