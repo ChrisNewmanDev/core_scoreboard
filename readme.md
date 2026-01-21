@@ -2,6 +2,8 @@
 Hello! If you’re enjoying the script and feel like supporting the work that went into it, consider buying me a coffee ☕
 https://buymeacoffee.com/core_scripts
 
+---
+
 # core-scoreboard: Using the SetHeistInProgress Export
 
 To set a heist as in progress (and start its cooldown timer) from another script, use the following export call:
@@ -42,3 +44,14 @@ exports['core-scoreboard']:SetHeistInProgress('pacific', false)
   - The logo will automatically appear above the scoreboard when the UI is opened.
 
 ---
+
+## Changelog
+
+### Version 1.0.0 (January 21, 2026)
+- Initial release
+- Core scoreboard functionality
+- Job count display
+- Heist status tracking
+- Cooldown timer system
+- Custom server logo and name support
+- SetHeistInProgress export
